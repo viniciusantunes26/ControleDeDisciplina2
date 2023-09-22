@@ -27,11 +27,11 @@ from school.views.taskView import TaskView
 from school.views.taskList import TaskListView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('students/', StudentView.as_view(), name='student'),
-    path('students/', StudentListView.as_view(), name='student-list'),
-    path('students/', DisciplineView.as_view(), name='discipline'),
-    path('students/', DisciplineListView.as_view(), name='discipline-list'),
-    path('students/', TaskView.as_view(), name='task'),
-    path('students/', TaskListView.as_view(), name='task-list'),
+    path('api/admin/', admin.site.urls),
+    path('api/students/', StudentView.as_view(), name='student-list'),
+    path('api/students/<int:pk>/', StudentListView.as_view(), name='student-detail'),
+    path('api/disciplines/', DisciplineView.as_view(), name='discipline-list'),
+    path('api/disciplines/<int:pk>/', DisciplineListView.as_view(), name='discipline-detail'),
+    path('api/tasks/', TaskView.as_view(), name='task-list'),
+    path('api/tasks/<int:pk>/', TaskListView.as_view(), name='task-detail'),
 ]
