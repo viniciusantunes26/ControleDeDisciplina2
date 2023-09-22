@@ -12,13 +12,13 @@ Esta API fornece o gerenciamento de tarefas de cada aluno em determinadas discip
     Django 4.2.4
     Django Rest Framework 3.x
 
+Clone o repositório:
+
+    https://github.com/viniciusantunes26/ControleDeDisciplina2.git
+
 Configuração do Ambiente
 
 Siga as etapas abaixo para configurar o ambiente de desenvolvimento:
-
-    Clone o repositório:
-
-https://github.com/viniciusantunes26/ControleDeDisciplina2.git
 
     No terminal, ative o Ambiente Virtual         python -m venv .env ./.venv/Scripts/activate
 
