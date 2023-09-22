@@ -18,7 +18,7 @@ Siga as etapas abaixo para configurar o ambiente de desenvolvimento:
 
     Clone o repositório:
 
-*********
+(https://github.com/viniciusantunes26/ControleDeDisciplina2.git)
 
     No terminal, ative o Ambiente Virtual         python -m venv .env ./.venv/Scripts/activate
 
@@ -31,6 +31,9 @@ Siga as etapas abaixo para configurar o ambiente de desenvolvimento:
 
 # COMANDO IMPORTANTES:
 
-Para startar o projeto                                                                                                    git manage.py runserver
-Descreve as alterações que devem ser feitas no banco de dados sempre que você cria, altera ou remove um modelo            git manage.py makemigrations 
-É usado para aplicar ou desfazer migrações de banco de dados.                                                             git manage.py migrate 
+Para startar o projeto 
+git manage.py runserver
+Descreve as alterações que devem ser feitas no banco de dados sempre que você cria, altera ou remove um modelo 
+git manage.py makemigrations 
+É usado para aplicar ou desfazer migrações de banco de dados. 
+git manage.py migrate 
